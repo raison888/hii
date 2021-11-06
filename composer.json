@@ -1,0 +1,26 @@
+{
+    "name": "raison888/hii",
+    "description": "test eth rpc client, offline sign, php",
+    "authors": [
+        {
+            "name": "testns",
+            "email": "testns@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "simplito/elliptic-php": "^1.0",
+        "kornrunner/keccak": "^1.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    
+    "license": "MIT",
+    
+    "autoload": {
+        "psr-4": {
+            "testns\\": "src/"
+        }
+    }
+    
+    
+}
